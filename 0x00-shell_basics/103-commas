@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a1 | sort | paste -sd ','
+(find -mindepth 1 -maxdepth 1 | sed -e 's|^\./|./, |' -e 's|^\./|, |' -e 's|/$|/&|' -e 's|[^/]$|&/|' -e '1!s|^\./|, |' -e '2!s|^\./|, |'; echo) | sed -e 's|,$||'
