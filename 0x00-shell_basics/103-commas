@@ -1,3 +1,2 @@
 #!/bin/bash
-ls -a1 | sort -f | paste -s -d, - | sed 's/,/, /g;s/, $/
-/'
+ls -a1 | sort | paste -sd ','
