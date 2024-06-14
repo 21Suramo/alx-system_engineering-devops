@@ -1,3 +1,3 @@
-# ALX System Engineering DevOps
+# alx-system_engineering-devops
 
-This repository contains scripts for various tasks related to system engineering and DevOps. Each script is exactly two lines long and performs a specific function as described below.
+This repository contains various shell scripts for system engineering and devops tasks.
